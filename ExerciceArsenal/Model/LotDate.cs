@@ -26,7 +26,7 @@ namespace ExerciceArsenal.Model
 
         public override string ToString()
         {
-            return $"le {winningDate.Date.ToString()} à {winningTime.ToString()}, lot n° : {IdLot}";
+            return $"le {winningDate.Date.ToString("d")} à {winningTime.ToString()}, lot n° : {IdLot}";
         }
     }
 
